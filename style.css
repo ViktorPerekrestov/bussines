@@ -1,0 +1,407 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+._CONTAINER {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0px 0px 0px;
+}
+.header__burger {
+  display: none;
+}
+.header__logo {
+}
+
+.header__link {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 333.333%;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #646667;
+  margin: 0px 10px 0px 21.5px;
+}
+
+.header__link img {
+  padding: 6px 0px 0px 9px;
+}
+
+.header__link:last-child {
+  margin: 0px 0px 0px 21.5px;
+}
+
+/************************************ end header   ****************************************/
+
+/************************************ start top main   ****************************************/
+
+.top {
+  margin: 28.5px 0px 0px 0px;
+}
+
+.top__background img {
+  width: 100%;
+}
+
+.top__background {
+  position: relative;
+}
+.top__clip-path {
+  position: absolute;
+  width: 35.184%;
+  height: 100%;
+  background-image: linear-gradient(
+    198.43deg,
+    #007397 4.17%,
+    rgba(0, 115, 151, 0.0001) 87.5%
+  );
+  z-index: 1;
+  left: 0;
+  top: 0;
+  clip-path: polygon(0% 0, 100% 0%, 65.7% 100%, 0% 100%);
+}
+.top_text,
+.info__text {
+  padding: 48px 0px 40.5px 0px;
+  max-width: 970px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 180%;
+  text-align: center;
+  color: #646667;
+  margin: auto;
+}
+.top__button,
+.info__button {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #007397;
+  padding: 20px 0px 20px 0px;
+  max-width: 370px;
+  margin: auto;
+  cursor: pointer;
+}
+/************************************ end top   ****************************************/
+
+/************************************ start info   ****************************************/
+
+.info {
+  padding: 188px 0px 0px 0px;
+}
+.info__text {
+  max-width: 670px;
+  margin: 0px 0px 0px 0px;
+  text-align: left;
+  padding: 0px 0px 0px 0px;
+}
+.info__investors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 98px 0px 47.5px 0px;
+}
+.info__investor {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  text-align: center;
+  color: #aec3d4;
+  flex: 0 0 170px;
+}
+
+.info__volume {
+  flex-basis: 371px;
+}
+
+.info__button {
+  width: 270px;
+  margin: 0px 0px 0px 0px;
+}
+/************************************ end info   ****************************************/
+
+/************************************ start cards   ****************************************/
+
+.cards {
+  padding: 123px 0px 0px 0px;
+}
+.cards__flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 41px 0px 0px 0px;
+}
+
+.cards__links {
+  display: flex;
+  justify-content: flex-end;
+}
+.cards__links-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex:0 1 370px;
+}
+.cards__link,
+.cards__all {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #d3cfce;
+}
+
+.cards__all {
+  color: #007397;
+}
+
+.cards_block {
+flex:0 1 370px;
+}
+
+.cards__span {
+  letter-spacing: 3.4px;
+}
+.cards__background {
+  background: url("images/cards/cover1.jpg") no-repeat;
+  position: relative;
+  height: 370px;
+}
+.cards__top {
+  position: absolute;
+  left: 8.11%;
+  right: 8.11%;
+  top: 6.35%;
+  bottom: 93.08%;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 133%;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #ffffff;
+  z-index: 2;
+}
+.cards__title {
+  position: absolute;
+  left: 8.11%;
+  right: 8.11%;
+  top: 62%;
+  bottom: 49.31%;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.cards__clip-path {
+  width:100%;
+  clip-path: polygon(0 0, 100% 0, 65.5% 100%, 0% 100%);
+}
+.cards__text 
+{
+font-size: 16px;
+line-height: 200%;
+color: #646667;
+padding:33px 0px 32px 0px;
+
+}
+.cards__button 
+{
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #007397;
+}
+
+/************************************ end main   ****************************************/
+
+
+/************************************ start footer    ****************************************/
+
+.footer
+{
+    padding:195px 0px 0px 0px;
+    
+}
+.footer__map 
+{
+    width:100%;
+}
+.footer__footer
+ {
+     display:flex;
+     justify-content:space-between;
+     align-items:center; 
+padding:44px 0px 0px 0px;
+
+     
+}
+.footer__left,
+.footer__right-text
+{
+font-weight: 700;
+font-size: 12px;
+line-height:333%;
+text-align: right;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #646667;
+}
+.footer__right 
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex:0 0 304px;
+}
+.footer__right-text 
+{
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************ end all    ****************************************/
+
+/************************************ start media    ****************************************/
+@media (max-width: 1220px) {
+  ._CONTAINER {
+    padding: 0 10px;
+  }
+
+  .cards__flex
+  {
+      flex-wrap:wrap;
+      justify-content: space-around;
+  }
+
+
+
+}
+
+@media (max-width:1136px)
+{
+    .cards__text 
+{
+
+padding:10px 0px 10px 0px;
+}
+.cards_block
+{
+    padding:40px 0px 0px 0px;  
+}
+.cards__flex
+{
+    padding:0px 0px 0px 0px;
+    
+}
+}
+
+@media (max-width: 1024px) {
+  .header {
+    flex-direction: column;
+  }
+  .header__link {
+    margin: 0px 5px 0px 12px;
+  }
+  .info__investors {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 0px 30px 0px;
+  }
+  .info__investor {
+    flex-basis: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__burger {
+    display: block;
+    font-size: 26px;
+    font-weight: 700;
+    color: #646667;
+    cursor: pointer;
+    position: absolute;
+    left: 6px;
+    top: 28px;
+    z-index: 5;
+  }
+  .header {
+    position: relative;
+  }
+  .header__nav {
+    position: absolute;
+    left: 6px;
+    top: 28px;
+    background-color: rgb(241, 244, 247);
+    display: none;
+    width: 100%;
+  }
+
+  .header__link {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+
+  .top_text,
+  .info__text {
+    font-size: 16px;
+  }
+  .footer
+{
+    padding:70px 0px 0px 0px;
+    
+}
+}
+
+@media (max-width:530px)
+{
+    .footer__footer
+    {
+        flex-direction: column;
+
+    }
+.footer__right 
+{
+  
+   flex:1 0 20px;
+   flex-direction: column;
+}
+}
+
+@media (max-width: 480px) {
+  .info__button {
+    margin: auto;
+  }
+}
